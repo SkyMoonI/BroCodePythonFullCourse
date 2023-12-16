@@ -1,7 +1,7 @@
 # with open("C:\\Users\\iseri\\PycharmProjects\\pythonFullCourseForBeginnersBroCode\\test.txt")
 
 try:
-    with open("test.tx") as file:  # closes the file automatically
+    with open("test.txt") as file:  # closes the file automatically
         print(file.read())
 except FileNotFoundError as e:
     print(e)
